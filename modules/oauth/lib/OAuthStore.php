@@ -175,6 +175,13 @@ class OAuthStore extends \OAuthDataStore
         return $token;
     }
 
+
+    /**
+     * @param string $requestToken
+     * @param \OAuthConsumer $consumer
+     * @param string|null $verifier
+     * @return \OAuthToken
+     */
     public function new_access_token($requestToken, $consumer, $verifier = null)
     {
         \SimpleSAML\Logger::info('OAuth new_access_token('.$requestToken.','.$consumer.')');
