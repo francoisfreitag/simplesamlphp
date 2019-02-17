@@ -43,7 +43,8 @@ $config = [
                         'current.crt',
                         'rollover.crt',
                     ],
-                    'validateFingerprint' => '59:1D:4B:46:70:46:3E:ED:A9:1F:CC:81:6D:C0:AF:2A:09:2A:A8:01',
+                    /* The certificates option takes precedence over validateFingerprint. */
+                    #'validateFingerprint' => '59:1D:4B:46:70:46:3E:ED:A9:1F:CC:81:6D:C0:AF:2A:09:2A:A8:01',
                     'template' => [
                         'tags' => ['kalmar'],
                         'authproc' => [
