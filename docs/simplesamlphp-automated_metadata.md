@@ -96,7 +96,7 @@ Here's an example of a possible configuration for both the Kalmar Federation and
 				'sources'	=> [
 					[
 						'src' => 'http://metadata.ukfederation.org.uk/ukfederation-metadata.xml',
-						'validateFingerprint' => 'D0:E8:40:25:F0:B1:2A:CC:74:22:ED:C3:87:04:BC:29:BB:7B:9A:40',
+						'validateFingerprint' => 'AD:80:7A:6D:26:8C:59:01:55:47:8D:F1:BA:61:68:10:DA:81:86:66',
 					],
 				],
 				'expireAfter' 		=> 60*60*24*4, // Maximum 4 days cache time.
